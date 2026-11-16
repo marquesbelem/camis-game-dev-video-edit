@@ -81,7 +81,7 @@ Ao receber a instrução **`edit`**, o agente assistente obrigatoriamente solici
 * **Referências da pasta `exemplos/`:** Seguir o padrão de ritmo, dinamismo e estilo demonstrado nos vídeos de referência `exemplos/video1.mp4` e `exemplos/video2.mp4`.
 
 ### 4. Áudio & Trilhas Sonoras Oficiais
-* **Tratamento de Áudio da Câmera (Filtro de Ruído & Destaque de Voz):** Antes de utilizar o vídeo da câmera (`camera_chamada`, `camera`, etc.), aplicar obrigatoriamente um filtro de redução de ruído (denoise / noise suppression) para eliminar chiados de microfone/ambiente e destacar a voz com clareza.
+* **Tratamento de Áudio da Câmera (Filtro de Ruído & Destaque de Voz):** Antes de utilizar o vídeo da câmera (`camera_chamada`, `camera`, etc.), é obrigatório utilizar o **MCP Cleanvoice** para efetuar o tratamento de áudio (redução de ruído / denoise, eliminação de chiados de microfone/ambiente e destaque da voz com clareza).
 * **Trilha Sonora em Estilo Lofi:** A trilha sonora de fundo enquanto o vídeo está passando deve ser no estilo **lofi**, mantida em volume suave para não competir com a fala.
 * Utilizar as trilhas sonoras oficiais disponibilizadas na pasta `intro/`:
   * `intro/trilha_youtube.wav` para os vídeos principais do YouTube.
