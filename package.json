@@ -1,0 +1,34 @@
+{
+  "name": "cami-video-edit",
+  "version": "1.0.0",
+  "description": "Repositório automatizado para composição, edição programática e pós-produção dos vídeos do canal **Camis GameDev** no YouTube, utilizando [Remotion](https://www.remotion.dev/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marquesbelem/cami-video-edit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/marquesbelem/cami-video-edit/issues"
+  },
+  "homepage": "https://github.com/marquesbelem/cami-video-edit#readme",
+  "dependencies": {
+    "@remotion/cli": "^4.0.541",
+    "@remotion/media-utils": "^4.0.541",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.541"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "ffmpeg-static": "^5.3.0",
+    "typescript": "^7.0.2"
+  }
+}
